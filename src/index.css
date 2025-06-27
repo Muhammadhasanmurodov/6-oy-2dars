@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+span {
+  color: #d87d4a;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header {
+  padding: 35px 165px 90px 165px;
+  background-color: #000000;
+  margin-bottom: 100px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+
+.list li {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 2px;
+  transition: color 0.4s ease;
+}
+
+.list li:hover {
+  color: #d87d4a;
+}
+
+.logoName {
+  width: 143px;
+  height: 25px;
+}
+
+.icons {
+  transition: color 0.4s ease;
+}
+
+.icons:hover {
+  color: #d87d4a;
+}
+
+.sub-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 1.43px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 135px;
+}
+
+.card {
+  padding: 80px 165px;
+}
+
+.container-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 125px;
+}
+
+.headPhone {
+  width: 540px;
+  height: 560px;
+}
+
+.text-sub-title {
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: #d87d4a;
+}
+
+.text-title {
+  margin-top: 8px;
+  color: #000000;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 1.43px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.text-description {
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  opacity: 0.5;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.text-btn {
+  margin-top: 20px;
+  width: 160px;
+  height: 48px;
+  background-color: #d87d4a;
+  border: none;
+  color: white;
+  font-family: Manrope;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease;
+}
+
+.text-btn:hover {
+  background-color: #f96008;
+}
+
+.footer {
+  padding: 75px 165px 48px 165px;
+  background-color: #000000;
+  margin-top: 110px;
+}
+
+.logoEnds {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.description-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  margin-top: 36px;
+}
+
+.description-end {
+  width: 540px;
+}
+
+.about {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  opacity: 0.5;
+}
+.detail {
+  margin-top: 56px;
+  opacity: 0.5;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0px;
+}
+
+
+.media{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
