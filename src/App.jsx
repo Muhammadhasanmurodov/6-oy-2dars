@@ -1,5 +1,5 @@
 // import Header from "./components/Header"
-import MainOne from "./components/mainOne";
+import MainOne from "./components/MainOne";
 import MainTwo from "./components/MainTwo";
 import MainThree from "./components/MainThree";
 import MainLast from "./components/MainLast";
